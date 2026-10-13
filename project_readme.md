@@ -1,4 +1,4 @@
-# Automated Python Application Deployment on AWS using Jenkins
+# Automated Python Application Deployment on AWS 
 
 ## 📋 Table of Contents
 1. [Introduction](#introduction)
@@ -42,7 +42,8 @@ The input phase involves setting up the Python environment, configuring Jenkins,
 ### EC2 Terminal Command Input:
 The following terminal input shows the execution of the Gunicorn server binding the application to port `5000` on the AWS EC2 instance (`ec2-user@ip-172-31-36-228`).
 
-![EC2 Terminal Input](Screenshot_2026-10-10_182111.png)
+![EC2 Terminal Input](Screenshot_2026-10-10_182111.png)<img width="1475" height="500" alt="Screenshot 2026-10-10 182111" src="https://github.com/user-attachments/assets/f838031f-73ca-48fe-8621-16f9ed186499" />
+
 
 ---
 
@@ -52,7 +53,8 @@ Once the Jenkins CI/CD pipeline triggers successfully via the webhook and the ap
 ### Browser Output Screenshot:
 The browser successfully renders the deployment message confirming that the Python application has been deployed via Jenkins with webhook integration.
 
-![Browser Output](Screenshot_2026-10-10_181514.png)
+![Browser Output](Screenshot_2026-10-10_181514.png)<img width="1636" height="986" alt="Screenshot 2026-10-10 181514" src="https://github.com/user-attachments/assets/7b4241e6-4d8d-46fa-a128-c8dd20dc0ab2" />
+
 
 ---
 
